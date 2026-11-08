@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Oxanium:wght@200..800&display=swap');
+@import "tailwindcss";
+
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+ 
+*::-webkit-scrollbar-track {
+  background: #FBFBFB;
+  border-radius: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #0E513C;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #0E513C;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0E513C #FBFBFB;
+}
+
+
+
+@theme{
+  --font-primary: "Lato", sans-serif;
+  --font-secondary: "Bree Serif", serif;
+
+  --font-alisone: "Exo 2", sans-serif;
+  --font-alistwo: "Inter", sans-serif;
+  
+  --font-beesone: "Archivo", sans-serif;
+  --font-beestwo: "Manrope", sans-serif;
+
+  --font-fadelone: "Lora", serif;
+  --font-fadeltwo: "Arimo", sans-serif;
+
+  --font-huntersone: "Oxanium", sans-serif;
+  --font-hunterstwo: "Figtree", sans-serif;
+
+
+  --color-primary: #0E513C;
+  --color-subPrimary: #D9E0DE;
+  --color-fault: #b33333;
+  --color-secondary: #EDE8DF;
+  --color-text: #333333;
+  --color-bg: #FBFBFB;
+  --color-border: #DFDFDF;
+}
